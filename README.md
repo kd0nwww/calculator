@@ -75,6 +75,7 @@ This file contains the CSS styles for the calculator, giving it a dark theme and
 
 ---
 ## Example
+![screenshot](screenshot.PNG)
 ---
 
 ## Installation
