@@ -1,0 +1,44 @@
+QMainWindow {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+}
+
+QLineEdit {
+    background-color: #1E1E1E; 
+    color: #FFFFFF; 
+    border: 2px solid #3C3C3C; 
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+QPushButton {
+    background-color: #3C3C3C; 
+    color: #FFFFFF; 
+    border: 1px solid #5C5C5C;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+QPushButton:hover {
+    background-color: #505050; 
+}
+
+QPushButton:pressed {
+    background-color: #606060; 
+}
+
+QPushButton[text="C"], QPushButton[text="="], QPushButton[text="+"], QPushButton[text="-"], QPushButton[text="*"], QPushButton[text="/"] {
+    background-color: #FF5722; 
+    color: #FFFFFF; 
+    font-weight: bold;
+}
+
+QPushButton[text="C"]:hover, QPushButton[text="="]:hover, QPushButton[text="+"]:hover, QPushButton[text="-"]:hover, QPushButton[text="*"]:hover, QPushButton[text="/"]:hover {
+    background-color: #FF7043; 
+}
+
+QPushButton[text="C"]:pressed, QPushButton[text="="]:pressed, QPushButton[text="+"]:pressed, QPushButton[text="-"]:pressed, QPushButton[text="*"]:pressed, QPushButton[text="/"]:pressed {
+    background-color: #FF8A65; 
+}
